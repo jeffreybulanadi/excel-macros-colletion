@@ -1,0 +1,52 @@
+# Excel temporary files
+~$*.xls*
+*.xlk
+*.tmp
+*.log
+~*.tmp
+
+# Excel Backup Files
+*.xlsb
+*.bak
+*.xlsa
+
+# Excel Auto Save files
+*/AutoRecovery/*
+
+# Excel specific Excel Add-In files that are not needed
+*.xla
+*.xlam
+
+# VBA compiler/temporary files
+*.exd
+*.pdb
+*.tlb
+*.lvw
+*.vbw
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Windows shortcuts
+*.lnk
+
+# macOS specific files (in case of cross-platform collaboration)
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# VS Code workspace files (if using VS Code extension for VBA)
+.vscode/*
+*.code-workspace
+
+# Ignore user-specific files
+*.rsuser
+*.suo
+*.user
+
+# Temp folders
+temp/
+tmp/
